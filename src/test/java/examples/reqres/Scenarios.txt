@@ -1,6 +1,5 @@
 
 
-
 URL: https://reqres.in/
 
 GET
@@ -34,7 +33,6 @@ LIST USERS
 1.11 Scenario Outline:Check if each email address contains first name
 
 1.12 Scenario Outline:Verify that if given ids and first_names match
-
 
 
 
@@ -113,16 +111,13 @@ REGISTER
 
 8.2 Scenario Outline: Register 4 diffirent users with given emails and passwords and verify if tokens are not null
 
-
 8.3 Scenario: Try to register a user with a given email and verify if error message is "Missing password"
 
 8.4 Scenario Outline: Try to register 4 different users with given emails and verify that  error message is "Missing password" for each of them
 
-
 8.5 Scenario: Login a valid email and password and verify if token is not null
 
 8.6 Scenario Outline: Login 4 diffirent users with valid emails and passwords and verify if tokens are not null
-
 
 8.7 Scenario: Try to login with an email and verify if error message is "Missing password"
 

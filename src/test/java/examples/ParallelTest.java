@@ -5,12 +5,12 @@ import com.intuit.karate.Runner;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-class ExamplesTest {
+class ParallelTest {
 
     @Test
     void testParallel() {
         Results results = Runner.path("classpath:examples")
-                //.outputCucumberJson(true)
+                .outputCucumberJson(true)
                 .parallel(5);
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
     }

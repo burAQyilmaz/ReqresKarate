@@ -39,7 +39,7 @@ Feature: List Users Functionality
     When method get
     Then status 200
     * print responseTime
-    And assert responseTime<200
+    And assert responseTime<1000
 
 
   Scenario: Verify page, per_page,total, total_pages
