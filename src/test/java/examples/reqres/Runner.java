@@ -6,6 +6,6 @@ class Runner {
     
     @Karate.Test
     Karate testUsers() {
-        return Karate.run("single_resource").tags().relativeTo(getClass());}
+        return Karate.run("createPostPutPatchDelete").tags().relativeTo(getClass());}
 
 }

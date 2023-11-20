@@ -4,7 +4,6 @@ Feature: single_resource.feature
 
   Background: Url
     Given url "https://reqres.in/"
-    * def allUsers = read("classpath:examples/reqres/data/users.json")
 
   Scenario Outline: Verify the name,year of users with following ids 1,2,3,4
     Given path "api/unknown"
